@@ -290,3 +290,78 @@
     width: 877px;
     height: 877px;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: white;
+}
+
+.footer__columns {
+    margin: 60px auto 40px;
+    width: 90%;
+    min-height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 711px;
+    align-items: start;
+    justify-content: space-between;
+    color: #777;
+}
+
+.footer_author {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.footer__column_content_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__column-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer__column-links {
+    text-decoration: none;
+    color: #777;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.last {
+    margin-bottom: 16px;
+}
+.footer__column_content_social {
+    display: flex;
+    flex-direction: column;
+}
+
+.facebook::before, .instagram::before {
+    margin-right: 10px;
+}
+
+.facebook::before {
+    font-family: "Font Awesome 5 Brands";
+    content: "\f09a";
+  }
+
+.instagram::before {
+    font-family: "Font Awesome 5 Brands";
+    content: "\f16d";
+  }

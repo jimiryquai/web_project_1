@@ -74,5 +74,5 @@ Home page
 Concept
 Mentors
 
-(c) 2020 Your name
+(c) 2020 James Ryan
 

@@ -174,7 +174,7 @@
 /* Feynman section */
 .feynman {
     background-color: #f2f2f2;
-    background-image: url(/images/feinman.png);
+    background-image: url(../images/feinman.png);
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: 867px 637px;
@@ -231,11 +231,11 @@
     overflow: hidden;
 }
 
-.section-title__heading_theme_dark {
+.section-title_theme_dark {
     margin-top: 90px;
 }
 
-.section-subtitle__heading_theme_dark {
+.section-subtitle_theme_dark {
     margin-top: 20px;
 }
 
@@ -244,7 +244,6 @@
     margin-bottom: 90px;
     list-style: none;
 }
-
 
 .table__cell_theme_dark {
     width: 200px;
